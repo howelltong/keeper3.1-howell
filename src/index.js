@@ -4,10 +4,12 @@ import App from "./components/App";
 
 
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(
-    <div>
-        <App />
+ReactDOM.render(
+  <React.StrictMode>
+  <div>
+    <App/>
     </div>
+  </React.StrictMode>,
+  document.getElementById('root')
 );
 
