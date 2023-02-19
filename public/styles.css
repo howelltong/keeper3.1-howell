@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    
 }
 
 html {
@@ -23,7 +24,7 @@ header {
 
 header h1 {
     color: #fff;
-    font-family: "McLaren", cursive;
+    font-family: "Montserrat", cursive;
     font-weight: 200;
 }
 
