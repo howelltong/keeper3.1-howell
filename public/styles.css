@@ -68,6 +68,7 @@ footer p {
     margin-right: 10px;
     color: #f5ba13;
     border: none;
+    background: #fff;
     width: 36px;
     height: 36px;
     cursor: pointer;
@@ -97,6 +98,7 @@ form.create-note textarea {
 
 form.create-note button {
     position: absolute;
+    font-size: 2em;
     right: 18px;
     bottom: -18px;
     background: #f5ba13;

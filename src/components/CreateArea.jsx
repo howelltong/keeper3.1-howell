@@ -1,7 +1,4 @@
 import React, { useState } from "react";
-import AddIcon from '@mui/icons-material/Add';
-import Fab from "@material-ui/core/Fab";
-import Zoom from "@material-ui/core/Zoom";
 //import functionality with external packages
 
 function CreateArea(props) {
@@ -57,12 +54,12 @@ function CreateArea(props) {
                     placeholder="Take a note..."
                     rows={isExpanded ? 3 : 1}
                 />
-                <Zoom in={isExpanded}>
+                <div in={isExpanded}>
                     {/* 'in' prop boolean */}
-                    <Fab onClick={submitNote}>
-                        <AddIcon />
-                    </Fab>
-                </Zoom>
+                    <button onClick={submitNote}>
+                        +
+                    </button>
+                </div>
             </form>
         </div>
     );
